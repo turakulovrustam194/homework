@@ -20,17 +20,17 @@ a:hover{
 img {
   width: 100%;
 }
-.container-fluid, .row justify-content-center, .col-12, .col-sm-6, .col-md-4, .col-lg-3, .col-xl-3{
+.container-fluid, .row, .col-12, .col-sm-6, .col-md-4, .col-lg-3, .col-xl-3{
  position: relative;
  padding-right: 1px;
  padding-left: 1px;
     width: 100%;
 }
 .container {
- margin-top: 3rem;
- display: flex;
- flex-flow: row nowrap;
- justify-content: space-between;
+  margin-top: 3rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
   padding-left: 15px;
   padding-right: 15px;
   }
@@ -42,10 +42,8 @@ img {
 
 }
 .background:hover{
-
   display: flex;
   flex-direction: column;
-
 }
 .project{
   position: absolute;
@@ -59,14 +57,11 @@ img {
 .project:hover{
   opacity: 0.8;
   background: tomato;
-  display: flex;
-  flex-direction: column;
-
 }
 p{
   color: white;
   font-size: 15px;
 }
 .project-name{
-padding-top: 50px;
+  padding-top: 50px;
 }
