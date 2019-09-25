@@ -1,7 +1,44 @@
-p {
-  color: red;
+.navbar{
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 25px 0;
+  border-bottom: 1px solid #ccc;
 }
-a {
+.main-subtitle{
+  color: #fff;
+}
+.header{
+  background-image: url(../images/banner.jpg);
+  height: 750px;
+}
+.main-title {
+    margin-top: 140px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.btn-findout {
+    width: 200px;
+    height: 40px;
+    margin-top: 70px;
+    background-color: #e84545;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.button:hover {
+    background-color: rgb(140, 42, 42);
+    color: #fff;
+}
+.nav-item{
+  margin-left: 30px;
+
+}
+.icons-wrapper {
+
+}
+.links{
   color: #ccc;
   border: 1px solid #ccc;
   display: inline-block;
@@ -12,7 +49,7 @@ a {
   line-height: 2rem;
   margin: 3px;
 }
-a:hover{
+a:hover .icons-wrapper{
   background: #ccc;
   color: #111;
   text-decoration: none;
@@ -25,12 +62,6 @@ img {
  padding-right: 1px;
  padding-left: 1px;
  width: 100%;
-=======
-.container-fluid, .row, .col-12, .col-sm-6, .col-md-4, .col-lg-3, .col-xl-3{
- position: relative;
- padding-right: 1px;
- padding-left: 1px;
-    width: 100%;
 }
 .container {
   margin-top: 3rem;
@@ -65,12 +96,17 @@ img {
   background: tomato;
 }
 p{
-  color: white;
+  color: red;
   font-size: 15px;
 }
 .project-name{
   padding-top: 50px;
+  color: white
 }
+.description{
+  color: white;
+  }
+
 .card {
   border: 0;
   padding: 1rem;
@@ -94,4 +130,23 @@ h3{
   font-size: 0.8rem;
   font-weight: bold;
   margin-top: 2rem;
+}
+h2{
+  margin-top: 1rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+.container-fluid {
+  display: flex;
+  flex-flow: row wrap;
+}
+.style-button {
+  text-transform: uppercase;
+  padding: 10px 60px;
+  font-size: 13px;
+  color: #fff;
+  background-color: #e84546;
+}
+.col-4 {
+
 }
