@@ -267,8 +267,11 @@ h2 {
 }
 
 .ready {
+  margin: 0 auto;
   margin-top: 2.8rem;
   font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .blocks {
